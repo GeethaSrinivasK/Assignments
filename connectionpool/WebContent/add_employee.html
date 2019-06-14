@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<meta charset="ISO-8859-1">
+<title>Add_employee</title>
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+<center>
+<form action="controller.do" method="post" >
+
+	<table data-role="table" id="table-1" class="ui-responsive">
+		
+		<tbody>
+			<tr>
+				
+				
+					<td><label for="text-1">Enter id</label></td>
+					<td><input name="id" type="text" required/>
+			              </td>
+			</tr>
+			
+			<tr>
+			<td><label>Enter first name</label></td>
+			<td><input type="text" name="fn" required/> </td>
+			</tr>
+			
+			<tr>
+			<td><label>Enter Last name</label></td>
+			<td><input type="text" name="ln" required/> </td>
+			</tr>
+			<tr>
+			<td><label>Enter Salary</label></td>
+			<td><input type="number" name="sal" min=1000 max=5000 required/> </td>
+			</tr>
+			<tr><td><input type="submit" value="Add" onclick="return validate" name="add"></td></tr>
+		</tbody>
+	</table>
+</form>
+</center>
+</body>
+</html>

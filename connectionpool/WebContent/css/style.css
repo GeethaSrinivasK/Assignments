@@ -1,0 +1,23 @@
+body{
+	background-color:#cccfff;
+}
+id{
+	color:blue;
+}
+p{
+	color:red;
+}
+input[type=text]{
+	background-color:#cfd296;
+	background-position:10px 10px;
+
+}
+input[type=number]{
+	background-color:#cfd296;
+	background-position:10px 10px;
+	padding-left:40px;
+}
+table{
+	bordre:thin;
+		padding-left:40px;
+}
