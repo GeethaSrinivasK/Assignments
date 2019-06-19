@@ -1,0 +1,20 @@
+body{
+	background-color:#cccfff;
+}
+id{
+	color:blue;
+}
+p{
+	color:red;
+}
+input{
+	background-color:gray;
+	background-position:10px 10px
+}
+
+table{
+	bordre:thin;
+}
+select{
+	background-color:gray;
+}
