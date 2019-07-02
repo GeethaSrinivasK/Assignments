@@ -1,0 +1,13 @@
+{
+"firstname":"geetha",
+"lastname":"srinivas",
+"address":
+{
+"city":"tirupati",
+"zipcode":517501,
+"street_address":"layout"
+},
+"country":"india",
+"languages":["english","tamil","telugu"],
+"active":"gcgch"
+}
